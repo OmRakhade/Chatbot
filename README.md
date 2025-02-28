@@ -6,7 +6,9 @@ This repository having a chatbot's by using laama which is open source model, th
 
 using venv as virtual environment.
 
-<tab><tab>conda activate venv
+```bash
+conda activate venv
+```
 
 Folder having only one file app.py which having the code of basic implementation of llama model.
 
@@ -18,8 +20,10 @@ in app1.py having a same code but trying to get output in multilanguage in marat
 
 using Botenv as virtual environemt
 
-- conda activate Botenv
-  
+```bash
+ conda activate Botenv
+```
+
 In this folder having multiple apis app.py having basic implementation of gemini ai which takes query and image as input,
 
 Then app1.py having a same gemini ai model which takes a query and image as input and prvoide the details, currently it is not working for the query+image together but it is providing accurate data inside of image and also having code to do post request to express backend to store the data into the mongo db that storing id also get as output on ui client.py.
@@ -30,10 +34,13 @@ In app2.py having gemini model which respons the query entered by user from clie
 
 If file containing the code of rest api use command :
 
-- python file_name.py
+```bash
+python file_name.py
+```
 
 If file containing the code of stramlit the use command :
 
-- stramlit run file_name.py
-
+```bash
+ stramlit run file_name.py
+```
 
