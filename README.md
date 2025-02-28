@@ -6,7 +6,7 @@ This repository having a chatbot's by using laama which is open source model, th
 
 using venv as virtual environment.
 
-- conda activate venv
+# conda activate venv
 
 Folder having only one file app.py which having the code of basic implementation of llama model.
 
